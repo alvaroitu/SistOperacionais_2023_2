@@ -1,0 +1,7 @@
+Log da criação de pastas
+Criando pasta pasta1
+Criando pasta pasta2
+Criando pasta pasta3
+Apagando pasta pasta1
+Apagando pasta pasta2
+Apagando pasta pasta3

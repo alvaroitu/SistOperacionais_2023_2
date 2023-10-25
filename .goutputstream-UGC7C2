@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int FatorialRecursiva(int n){
+
+    if(n<=1){
+        return 1;
+    } else{
+        return n*FatorialRecursiva(n-1);
+    }
+
+}
+
+void Fatorial(){
+
+    int numerodesejado, fatorial;
+
+    printf("Qual numero deseja calcular o Fatorial???\n");
+    scanf("%d", &numerodesejado);
+
+    fatorial = FatorialRecursiva(numerodesejado);
+
+    printf("%d", fatorial);
+
+}
+
+int main(int args, char * arg[]){
+
+    Fatorial();
+    
+    printf("\n");
+    return 0;
+}

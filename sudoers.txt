@@ -1,0 +1,36 @@
+vi /etc/sudoers
+
+sudo visudo -f /etc/sudoers
+
+grep ‘sudo’ /etc/group
+
+adduser usuario sudo
+
+To do so, you can use a combination of the letters:
+
+a for all; which designates all users on the system.
+u for user; which is the user account that created the file or has been assigned ownership of the file
+g for group; which is a collection of user accounts, such as members of the same team, that have been granted certain permissions on the file.
+o for others; which are all other users who are not the owner or members of the group associated with the file.
+
+chmod 
+
+bash nome do arquivo
+
+#!/bin/bash
+echo ola mundo
+echo lista pastas
+ls
+echo cria pasta
+mkdir maisum2
+echo 'ola mundo dentro no arquivo' > /home/alvaroitu/testeScript/maisum2/novoarquivo.txt
+
+if [ ! -d /home/alvaroitu/teste ]; then
+
+	echo 'criando pasta'
+	mkdir /home/alvaroitu/teste 
+	
+else
+	echo 'diretório já existe'
+fi
+

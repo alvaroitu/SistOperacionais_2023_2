@@ -1,0 +1,50 @@
+Modo Normal (modo padrão):
+
+i: Entra no modo de inserção antes do cursor.
+I: Entra no modo de inserção no início da linha.
+a: Entra no modo de inserção após o cursor.
+A: Entra no modo de inserção no final da linha.
+o: Abre uma nova linha abaixo da linha atual e entra no modo de inserção.
+O: Abre uma nova linha acima da linha atual e entra no modo de inserção.
+Modo de Inserção:
+
+No modo de inserção, você pode simplesmente digitar seu texto como faria em qualquer outro editor de texto.
+Salvar o arquivo:
+
+:w: Salvar o arquivo.
+:w nome_do_arquivo: Salvar o arquivo com um nome específico.
+Sair do vi:
+
+:q: Sair (sairá apenas se não houver modificações não salvas).
+:q!: Sair sem salvar as modificações.
+:wq ou :x: Salvar e sair.
+Navegação e Edição no Modo Normal:
+
+h, j, k, l: Movimentação com as setas (esquerda, baixo, cima, direita).
+x: Apagar o caractere sob o cursor.
+dd: Apagar a linha atual.
+yy: Copiar a linha atual.
+p: Colar o texto copiado ou apagado após o cursor.
+u: Desfazer a última ação.
+Ctrl + r: Refazer a ação.
+Localização no arquivo:
+
+:n: Ir para a linha n (substitua 'n' pelo número da linha).
+:1: Ir para a primeira linha.
+:$: Ir para a última linha.
+Pesquisa e Substituição:
+
+:/palavra: Pesquisar por "palavra" para frente.
+:?palavra: Pesquisar por "palavra" para trás.
+n: Ir para a próxima ocorrência.
+N: Ir para a ocorrência anterior.
+:s/antigo/novo: Substituir "antigo" por "novo" na linha atual.
+:%s/antigo/novo/g: Substituir todas as ocorrências de "antigo" por "novo" no arquivo.
+Seleção de texto no Modo Visual:
+
+v: Entra no modo visual.
+Use as setas para selecionar o texto.
+Depois de selecionar o texto, você pode copiá-lo com y ou recortá-lo com d.
+Ajuda:
+
+:help: Abre a ajuda do vi.
